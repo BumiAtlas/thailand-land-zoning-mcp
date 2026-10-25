@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/thailand-land-zoning",
+  "title": "Thailand Land Parcels, Public Land & Zoning (ที่ดินและผังเมืองรวม)",
+  "description": "Thai DOL land parcels and NSL public land, with DPT and Bangkok comprehensive-plan zoning.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/thailand-land-zoning-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/thailand",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/thailand"
+    }
+  ]
+}
