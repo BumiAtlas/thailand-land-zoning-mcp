@@ -27,6 +27,7 @@ Add it as a custom connector in any MCP client and sign in with Google. Tools, e
 |---|---|
 | `TH_parcel_search` | Parcels and public land at `latitude, longitude`, or public land by NSL id (e.g. UB5004) |
 | `TH_parcel_get` | One parcel: survey sheet number, area and the plan zones covering it; boundary as GeoJSON |
+| `TH_parcel_image` | Satellite or street map image of a parcel or point, with every parcel in view outlined and labelled with its land number |
 | `TH_public_land_get` | One NSL public land plot: holder and use, area, place, land office and zoning; boundary as GeoJSON |
 | `TH_zoning_get` | Comprehensive-plan zones at a point or by id: land use, plan, and FAR, coverage and height limits where set |
 
